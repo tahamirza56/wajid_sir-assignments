@@ -1,0 +1,11 @@
+my_dict={}
+my_dict["taha"]=90
+my_dict["arsalan"]=92
+my_dict["jibran"]=94
+print(my_dict)
+my_dict["arsalan"]=80
+print(my_dict)
+my_dict.pop("jibran")
+print(my_dict)
+taha_score=my_dict.get("taha")
+print(taha_score)
